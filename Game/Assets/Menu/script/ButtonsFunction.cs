@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class ButtonsFunction : MonoBehaviour
+    
 {
+    public bool visible;
     public void NewGame()
     {
         Application.LoadLevel(1);
@@ -28,8 +30,9 @@ public class ButtonsFunction : MonoBehaviour
     {
 
     }
-    public void Settings()
+    public void Skill()
     {
+        visible = true;
 
     }
     public void Quit()
